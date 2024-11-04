@@ -67,7 +67,7 @@ h2{
 }
 
 /* mobile responsive */
-@media screen and (max-width :390px) {
+@media screen and (max-width :660px) {
     .result{
         height: auto;
         width: auto;
