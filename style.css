@@ -73,6 +73,7 @@ h2{
         width: auto;
         top: 0.5rem;
         right: 1rem;
+        z-index: -1;
     }
     #player-section{
         position: relative;
