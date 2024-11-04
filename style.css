@@ -73,7 +73,7 @@ h2{
         width: auto;
         top: 0.5rem;
         right: 1rem;
-        z-index: -1;
+        z-index: 0;
     }
     #player-section{
         position: relative;
@@ -96,9 +96,9 @@ h2{
         font-size: 1rem;
     }
     #btn2{
-        position:relative;
-        bottom: -24.5rem;
-        right: 8rem;
+        position: absolute;
+        bottom: -26rem;
+        right: 26vw;
     }
     h2{
         font-size: 1.7rem;
@@ -111,6 +111,9 @@ h2{
     .cell-container{
         display: grid;
         grid-template-columns: 80px 80px 80px;
+    }
+    body{
+      padding-top: 10vh;
     }
 
 }
