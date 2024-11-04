@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #00cec8;
+    font-family: sans-serif;
+}
+.content-holder{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    font-size: 2.8rem;
+}
+.cell-container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    /* box-shadow: #00cec8 0px 10px 36px 0px, #00cec8 0px 0px 0px 1px; */
+    row-gap: 7px;
+    column-gap: 10px;
+    background-color: #00cec8;
+}
+.cell{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border: 2px solid #000;
+    background-color: #000;
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+    font-size: 3rem;
+}
+.btn{
+    width: 8rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: 2px solid #00cec8;
+    background-color: #000;
+    color: #00cec8;
+}
+.btn:hover{
+    background-color: #00cec8;
+    color: #000;
+}
+.btn:active{
+    background-color: #00cec7d0;
+    color: #000;
+}
+.result{
+    position: absolute;
+    top: 2rem;
+    right: 10rem;
+}
+#current-player{
+    font-size: 2rem;
+    background-color: #000;
+    border: 2px solid #00cec8;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    text-transform: uppercase;
+}
+
+/* mobile responsive */
+@media screen and (max-width :390px) {
+    .result{
+        height: auto;
+        width: auto;
+        top: 0.5rem;
+        right: 1rem;
+    }
+    #player-section{
+        position: relative;
+        top: -7rem;
+        left: -12rem;
+    } 
+    #player-section > h3{
+        font-size: 0.8rem;
+    }
+    #current-player{
+        padding: 8px 4px;
+    }
+    .result > h4{
+        font-size: 0.8rem;
+    }
+    .result > p{
+        font-size: 0.6rem;
+    }
+    #btn2{
+        position:relative;
+        bottom: -28rem;
+        right: 6.5rem;
+    }
+    h2{
+        font-size: 1.7rem;
+    }
+    .cell{
+        height: 80px;
+        width: 80px;
+        font-size: 2.5rem;
+    }
+    .cell-container{
+        display: grid;
+        grid-template-columns: 80px 80px 80px;
+    }
+
+}
