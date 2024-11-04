@@ -67,7 +67,7 @@ h2{
 }
 
 /* mobile responsive */
-@media screen and (max-width :660px) {
+@media screen and (max-width :450px) {
     .result{
         height: auto;
         width: auto;
@@ -94,7 +94,7 @@ h2{
     #btn2{
         position:relative;
         bottom: -28rem;
-        right: 6.5rem;
+        right: 8rem;
     }
     h2{
         font-size: 1.7rem;
